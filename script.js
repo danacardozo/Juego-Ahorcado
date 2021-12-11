@@ -72,7 +72,7 @@ function showNotification(){
     }, 2000);
 }
 
-//keydown letter press
+//  letras
 window.addEventListener("keydown", e =>{
     if(e.keyCode >= 65 && e.keyCode <=90){
         const letter = e.key;
